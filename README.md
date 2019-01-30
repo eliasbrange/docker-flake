@@ -1,13 +1,24 @@
-# USAGE
+[![image](https://img.shields.io/docker/automated/eliasbrange/flake.svg?style=flat)](https://hub.docker.com/r/eliasbrange/flake)
+[![image](https://img.shields.io/docker/build/eliasbrange/flake.svg?style=flat)](https://hub.docker.com/r/eliasbrange/flake)
+[![image](https://img.shields.io/docker/pulls/eliasbrange/flake.svg?style=flat)](https://hub.docker.com/r/eliasbrange/flake)
+[![image](https://img.shields.io/docker/stars/eliasbrange/flake.svg?style=flat)](https://hub.docker.com/r/eliasbrange/flake)
 
-### Check source
+## USAGE
 
-> docker run -v ${PWD}:/src eliasbrange/flake
+#### Check source
 
-### Check docs
+```bash
+$ docker run -v ${PWD}:/src eliasbrange/flake
+```
 
-> docker run -v ${PWD}:/src eliasbrange/flake check_docs.sh
+#### Check docs
 
-### Check security
+```bash
+$ docker run -v ${PWD}:/src eliasbrange/flake check_docs.sh
+```
 
-> docker run -v ${PWD}:/src eliasbrange/flake check_sec.sh
+#### Check security
+
+```bash
+$ docker run -v ${PWD}:/src eliasbrange/flake check_sec.sh
+```
